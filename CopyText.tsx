@@ -17,7 +17,7 @@ const CopyText = (props: ICopyText) => {
         setCopied(true);
         setTimeout(() => setCopied(false), 1000); // Reset copied state after 1 seconds
       }}
-      title={t("common.globalSearch.copyToClipboard") || ""}
+      title={t("components.globalSearch.copyToClipboard") || ""}
     ></i>
   );
 };
